@@ -607,11 +607,12 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	text-transform: uppercase;
 }
 .portfolio_single_content div span{
+	display: block;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
-	padding: 0;
+	padding: 0 10px;
 	text-transform: uppercase;
 }
 .portfolio_content{}

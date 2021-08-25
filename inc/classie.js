@@ -33,9 +33,11 @@ if ( 'classList' in document.documentElement ) {
     return elem.classList.contains( c );
   };
   addClass = function( elem, c ) {
+    if (!elem) { return; }
     elem.classList.add( c );
   };
   removeClass = function( elem, c ) {
+    if (!elem) { return; }
     elem.classList.remove( c );
   };
 }
